@@ -1,0 +1,21 @@
+table{
+   width: 500px;
+   text-align: left;
+   border: 1px solid red;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: red;
+   margin: 0 auto;
+}
+
+tr, td, th{
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: rgb(245, 225, 225);
+}
+
+td:hover,tr:hover{
+    background-color: darkred;
+    color: white;
+    transition: linear 0.5s;
+}
